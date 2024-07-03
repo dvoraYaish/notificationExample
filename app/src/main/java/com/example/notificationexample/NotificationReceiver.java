@@ -13,7 +13,7 @@ public class NotificationReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        Toast.makeText(context, "yossi", Toast.LENGTH_LONG).show();
+        Toast.makeText(context, "yossiiii", Toast.LENGTH_LONG).show();
         NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
 
         Intent repeatingIntent = new Intent(context, MainActivity.class);
